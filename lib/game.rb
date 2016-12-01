@@ -31,7 +31,7 @@ class Game
 
 end
 
-Game.build_deck()
-Game.shuffle()
-p Game.deal()
-p Game.deck.length
+# Game.build_deck()
+# Game.shuffle()
+# p Game.deal()
+# p Game.deck.length
