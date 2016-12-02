@@ -18,6 +18,11 @@ class Game
   define_singleton_method(:deck) do
     @@deck
   end
+  define_singleton_method(:takeOne) do
+    card = @@deck.take(1)
+    @@deck.slice!(0)
+    card
+  end
 
   define_singleton_method(:shuffle) do
     @@deck.shuffle!()
